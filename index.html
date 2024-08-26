@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/Frame6.png" alt="logo" class="cabecalho__logo">
+    </header> 
+
+    <main class="container">
+        <section class="container__conteudo">
+            <textarea placeholder="Digite seu texto" cols="41" rows="4" class="container__conteudo__input"></textarea>
+
+            <div class="container__conteudo__aviso">
+                <img src="/img/exclamacao.svg" alt="imagem exclamação">
+                <h6 class="conteudo__aviso__mensagem">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="container__conteudo__btn">
+                <button onclick="btnCriptar()" class="conteudo__btn__criptografar" >criptografar</button>
+                <button onclick="btnDescriptar()" class="conteudo__btn__descriptografar">descriptografar</button>
+            </div>
+        </section>
+
+        <section class="container__output">
+            <img src="/img/High.svg" alt="desenho de uma mulher ajoelhada" class="container__output__imagem">
+            <div class="container__output__mensagens">
+                <h5 class="container__output__titulo">Nenhuma mensagem encontrada</h5>
+                <p class="container__output_mensagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main> 
+    
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Christian</p>
+    </footer> 
+
+<script src="script.js"></script>
+</body>
+</html>
