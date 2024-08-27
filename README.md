@@ -32,3 +32,6 @@ Este é um projeto simples de criptografia de texto, desenvolvido com HTML, CSS 
 5. Clique no botão "Criptografar" para obter o texto criptografado ou "Descriptografar" para reverter a criptografia.
 
 6. Utilize o botão "Copiar" para copiar o texto resultante.
+
+## Projeto Hospedado em:
+https://chrysbr0.github.io/criptografador/
